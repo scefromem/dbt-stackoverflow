@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: stackoverflow
+    tables:
+      - name: badges
+      - name: posts_anwsers
+      - name: posts_questions
+      - name: users
