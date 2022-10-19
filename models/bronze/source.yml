@@ -5,6 +5,6 @@ sources:
     schema: stackoverflow
     tables:
       - name: badges
-      - name: posts_anwsers
+      - name: posts_answers
       - name: posts_questions
       - name: users
