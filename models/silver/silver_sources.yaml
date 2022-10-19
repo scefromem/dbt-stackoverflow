@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stackoverflow_bronze
+    schema: stackoverflow_bronze
+    tables:
+      - name: users
+      - name: badges
