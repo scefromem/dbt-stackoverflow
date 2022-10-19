@@ -1,5 +1,3 @@
-{{ config(schema = 'stackoverflow_silver') }}
-
 with source as (
     select
   id as user_id,
