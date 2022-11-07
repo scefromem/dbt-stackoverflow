@@ -11,5 +11,4 @@ select
   tags
 from {{ source('bronze', 'posts_questions') }}
 where
-  -- limit to recent data for the purposes of this demo project
-  creation_date >= timestamp("2019-01-01")
+  creation_date >= timestamp("2022-01-01")
