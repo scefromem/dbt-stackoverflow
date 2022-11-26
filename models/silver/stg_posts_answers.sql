@@ -8,4 +8,4 @@ select
   cast(parent_id as string) as parent_id
 from {{ source('bronze', 'posts_answers') }}
 where
-  creation_date >= timestamp("2022-01-01")
+  creation_date >= timestamp("2022-04-01")
