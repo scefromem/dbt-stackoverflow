@@ -11,4 +11,4 @@ select
   tags
 from {{ source('bronze', 'posts_questions') }}
 where
-  creation_date >= timestamp("2022-04-01")
+  creation_date >= timestamp("2022-06-01")
