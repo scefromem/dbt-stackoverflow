@@ -5,7 +5,6 @@ models:
     columns:
       - name: user_id
         tests:
-          - unique
           - not_null
   - name: stg_posts_answers
     columns:
@@ -27,9 +26,4 @@ models:
       - name: post_id
         tests:
           - unique
-          - not_null
-  - name: stg_users
-    columns:
-      - name: website_url
-        tests:
           - not_null
